@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'KutobFont';
+    src: url('/fonts/Curse\ of\ the\ Zombie.ttf')format('ttf'),
+    url('/fonts/Curse\ of\ the\ Zombie.ttf')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MetalMania';
+    src: url('/fonts/MetalMania-Regular.ttf')format('ttf'),
+    url('/fonts/MetalMania-Regular.ttf')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@layer base{
+    body{
+        @apply text-white-variant-font bg-[#1E150A]
+    }
+}
