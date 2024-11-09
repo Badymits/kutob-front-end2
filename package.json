@@ -19,6 +19,7 @@
     "react-router-dom": "^6.28.0",
     "react-tooltip": "^5.28.0",
     "swiper": "^11.1.14",
+    "vite-plugin-imagemin": "^0.6.1",
     "websocket": "^1.0.35",
     "zustand": "^5.0.1"
   },
